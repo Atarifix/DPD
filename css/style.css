@@ -237,10 +237,10 @@ nav.sticky .navbar .menu li a:hover{
     margin: o auto;
 }
 .sec-content .left{
-    width:35%;
+    width:0%;
 }
 .sec-content .right{
-    width:65%;
+    width:100%;
     display:flex; 
     flex-wrap: wrap;
     justify-content:space-between;
