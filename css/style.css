@@ -35,23 +35,58 @@ body {
 
 .main-btn {
     margin-top: 2.5rem;
+    color: #ffffff;
 }
 
 .main-btn button {
     background: var(--primary-color);
     padding: 0.725rem 1.75rem;
-    color: var(--white-color);
+    color: white;
     outline: none;
     border: 2px solid transparent;
     border-radius: 1.25rem;
     font-size: 0.875rem;
     text-transform: uppercase;
     cursor: pointer;
+    color: #ffffff;
+}
+
+.main-btn button :hover{
+    color: #ffffff;
+    
 }
 
 .text-center {
     text-align: center;
 }
+
+
+ /* #leftbox {
+     float: left;
+  padding-right: 20px;
+   
+ }
+
+ #secondbox {
+     float: right;
+
+      */
+ }
+
+ .btn_text{
+    color: #ffffff;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ .btn_1 :hover{
+    
+
+ }
+
+
+
 
 /* ==== header design ==== */
 nav{
@@ -147,19 +182,20 @@ nav.sticky .navbar .menu li a:hover{
     transform:translate(-50%,-50%);
 }
 .home .top-banner .text h1{
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     color:var(--white-color);
     text-transform: uppercase;
     margin-bottom:1.5rem;
 }
 .home .top-banner .text p{
-    font-size: 1rem;
+    font-size: 10.rem;
     line-height: 1.4375rem;
     color:var(--white-color);
     margin-bottom: 2.1rem;
-    width:40%;
+    width:80%;
     margin:auto;
     display:block;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /*====== services ====== */
@@ -531,6 +567,7 @@ textarea {
     margin-bottom:1rem;
     padding:0.75rem 1.5625rem;
     cursor:pointer;
+    color: #ffffff;
 }
 /* ===== Footer design ===== */
 .footer-design{
